@@ -50,7 +50,7 @@ public class JobRestController {
     public String loadData(){
         service.load();
 
-return "sucess";
+return "Sucessfully Completed";
     }
 
 
