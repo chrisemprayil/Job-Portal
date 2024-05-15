@@ -1,4 +1,4 @@
-package com.chris.SpringBootRest;
+package com.chris.SpringBootRest.controller;
 
 import com.chris.SpringBootRest.Model.JobPost;
 import com.chris.SpringBootRest.service.JobService;
@@ -50,7 +50,7 @@ public class JobRestController {
     public String loadData(){
         service.load();
 
-return "Sucessfully Completed";
+return "sucess";
     }
 
 
